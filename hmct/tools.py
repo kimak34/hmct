@@ -1,7 +1,7 @@
 import tensorflow as tf
 import tensorflow_probability as tfp
 
-class AHMC():
+class DHMC():
     def __init__(self, m, s, L, logp, ndim):
         self.m = m
         self.s = s
